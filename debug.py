@@ -10,3 +10,17 @@ def lone_sum(a, b, c):
     else:
         return a+b+c
 #thanks sam
+
+
+def lone_sum(a, b, c): 
+    if a == b and a == c and b == c: 
+        return 0 
+    elif a >= b: 
+        return c 
+    elif b == c:
+        return a
+    elif a == c: 
+     return c
+    else:
+        return a+b+c
+print(lone_sum(3,5,7)
